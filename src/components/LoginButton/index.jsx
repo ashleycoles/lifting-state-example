@@ -1,6 +1,6 @@
-function LoginButton({loggedInProp}) {
+function LoginButton({loggedInProp, toggleLoginProp}) {
     return (
-        <button>{loggedInProp === true ? 'Logout' : 'Login'}</button>
+        <button onClick={toggleLoginProp}>{loggedInProp === true ? 'Logout' : 'Login'}</button>
     )
 }
 
