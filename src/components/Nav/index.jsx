@@ -1,10 +1,10 @@
 import LoginButton from "../LoginButton"
 
-function Nav() {
+function Nav({loggedInProp}) {
     return (
         <nav>
             <h1>Lifting state!</h1>
-            <LoginButton />
+            <LoginButton loggedInProp={loggedInProp} />
         </nav>
     )
 }

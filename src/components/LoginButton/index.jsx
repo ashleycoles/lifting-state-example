@@ -1,6 +1,6 @@
-function LoginButton() {
+function LoginButton({loggedInProp}) {
     return (
-        <button>Login</button>
+        <button>{loggedInProp === true ? 'Logout' : 'Login'}</button>
     )
 }
 
