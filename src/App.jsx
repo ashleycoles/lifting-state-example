@@ -13,7 +13,7 @@ function App() {
     return (
         <>
             <Nav loggedInProp={loggedIn} toggleLoginProp={toggleLogin} />
-            <Content />
+            <Content loggedInProp={loggedIn} />
             <Footer loggedInProp={loggedIn} toggleLoginProp={toggleLogin} />
         </>
     )
