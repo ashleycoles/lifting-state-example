@@ -10,7 +10,7 @@ function App() {
     <>
       <Nav loggedInProp={loggedIn}/>
       <Content />
-      <Footer />
+      <Footer loggedInProp={loggedIn}/>
     </>
   )
 }

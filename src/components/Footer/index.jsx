@@ -1,10 +1,10 @@
 import LoginButton from "../LoginButton"
 
-function Footer() {
+function Footer({loggedInProp}) {
     return (
         <footer>
             <p>Copyright 2024</p>
-            <LoginButton />
+            <LoginButton loggedInProp={loggedInProp} />
         </footer>
     )
 }
